@@ -17,7 +17,7 @@ function cambiar_malsonantes( $text){
 
     $palabrasMalsonantes= ["mierda","jodido","follón","lerdo","nabo"];
 
-    $cambios = ["caca","duro","problema","bobo","pene"];
+    $cambios = ["caca","duro","problema","bobo","pito"];
 
     return str_replace($palabrasMalsonantes , $cambios, $text);
 }
